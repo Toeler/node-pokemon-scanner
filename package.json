@@ -1,0 +1,24 @@
+{
+  "name": "poke-node-scanner",
+  "version": "1.0.0",
+  "description": "NodeJS replacement for the scanner portion of the python PokemonGo-Map project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toeler",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promisify": "^4.1.0",
+    "lodash": "^4.14.1",
+    "mysql": "^2.11.1",
+    "pg": "^6.0.3",
+    "pg-hstore": "^2.3.2",
+    "pokemon-go-node-api": "^1.4.0",
+    "request-promise": "^4.0.2",
+    "sequelize": "^3.23.6",
+    "sqlite3": "^3.1.4",
+    "when": "^3.7.7",
+    "winston": "^2.2.0"
+  }
+}

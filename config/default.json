@@ -1,0 +1,18 @@
+{
+	"stepDelay": 10500,
+	"locations": [
+		"Times Square, NY"
+	],
+	"steps": 12,
+	"scanRadius": 0.07,
+	"db": "postgres://user:pass@host:5432/pokemon",
+	"accounts": {
+		"users": [
+			"somegoogleemail@gmail.com@google",
+			"someptcuser@ptc"
+		],
+		"pass": "common.password"
+	},
+	"sessionDuration": 180000000,
+	"logLevel": "info"
+}
